@@ -1,9 +1,27 @@
+html,body {
+    min-height: 100% !important;
+    margin: 0
+}
+
+
+
+
+
+
 
 .amenities {
-    width: 520%;
+    width: 50%;
 }
 
 .column-3 {
     float: left;
     width: 33.33%;
+}
+
+.amenitiesList {
+    text-align: center;
+}
+
+.amenitiesList li {
+    list-style-type: none;
 }
