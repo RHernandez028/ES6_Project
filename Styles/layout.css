@@ -1,3 +1,13 @@
-.ImageCont {
-    
+.footer{
+    position: fixed !important;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer a {
+    display: inline !important;
 }
