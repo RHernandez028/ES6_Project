@@ -13,17 +13,17 @@ let cabinInfo = [{
 
 let owners = [{
     name: `Gabriel Hernandez`,
-    skills: `HTML5`,
+    skills: `Web Development`,
     portrait: `gabriel.jpg`
 },
 {
     name: `Anthony Arias`,
-    skills: `HTML5`,
+    skills: `Web Design`,
     portrait: `anthony.jpeg`
 },
 {
     name: `Emmanuel Cortes`,
-    skills: `HTML5`,
+    skills: `Programming`,
     portrait: `emmanuel.jpg`
 }];
 

@@ -7,6 +7,7 @@
 
 h1{
     text-align: left;
+    padding-left: 10px;
 }
 
 section.mb-4{
@@ -40,6 +41,13 @@ body{
     background-color: rgb(219, 195, 152);
 }
 
+.col {
+    padding-top: 20px;
+}
+
+.col:first-of-type{
+    margin-right: 100px;
+}
 
 .portrait {
     width: 200px;
