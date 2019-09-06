@@ -20,11 +20,26 @@ body {
     color: #70AF82;
 }
 
-.card {
-    width: 33.33% !important;
-    margin: 15px;
-    float: left;
+h1#heading {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.available {
+    background-color: #70AF82
+}
+
+.input {
+    width: 100%;
+}
+
+div.card {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
+div.card-deck {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
