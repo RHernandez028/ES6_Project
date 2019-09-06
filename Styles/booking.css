@@ -20,3 +20,11 @@ body {
     color: #70AF82;
 }
 
+.card {
+    width: 33.33% !important;
+    margin: 15px;
+    float: left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
