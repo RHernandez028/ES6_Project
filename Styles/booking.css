@@ -1,13 +1,23 @@
 html,body {
     min-height: 100% !important;
-    margin: 0
+    margin: 0;
 }
 
+.jumbotron {
+    background-color: rgb(219, 195, 152)!important;
+}
 
+.nav {
+    background-color: rgb(125, 97, 77);
+}
 
+.active {
+    background-color: rgb(219, 195, 152) !important;
+}
 
-
-
+.nav-link {
+    color: #70AF82
+}
 
 .amenities {
     width: 50%;

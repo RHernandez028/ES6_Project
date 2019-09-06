@@ -1,15 +1,29 @@
-.footer{
-    position: fixed !important;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-    background-color: whitesmoke;
-    padding: 8px;
-    text-align: center;
+
+
+section.mb-4{
+    background-color: tan;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
+.active{
+    background-color: rgb(219, 195, 152) !important;
+    border-color:  rgb(219, 195, 152)!important;
+    
 .footer a {
     display: inline !important;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.nav{
+    background-color: rgb( 125, 97, 77)
+}
+
+body{
+    background-color: rgb(219, 195, 152);
 }
