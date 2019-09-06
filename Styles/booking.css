@@ -20,13 +20,24 @@ body {
     color: #70AF82;
 }
 
+.nav-link:hover {
+    color: #70AF82 !important;
+    border: none !important;
+}
+
 h1#heading {
     text-align: center;
     padding: 10px 0;
 }
 
-.available {
-    background-color: #70AF82
+.btn {
+    background-color: rgb(219, 195, 152) !important;
+    color: black !important;
+    border: none !important;
+}
+
+.btn-secondary:focus {
+box-shadow: none !important;
 }
 
 .input {
@@ -43,3 +54,21 @@ div.card-deck {
     margin: 0 auto;
     margin-bottom: 25px;
 }
+
+.footer{
+    width: 100%;
+    background-color: rgb( 125, 97, 77);
+    color: white;
+    text-align: center;
+    position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+    div.footer a {
+        display: inline !important;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #70af82;
+    }

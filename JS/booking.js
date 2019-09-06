@@ -23,7 +23,7 @@ let owners = [{
 },
 {
     name: `Emmanuel Cortes`,
-    skills: `Programming`,
+    skills: `Web Design`,
     portrait: `emmanuel.jpg`
 }];
 
@@ -31,7 +31,7 @@ let owners = [{
 
 for (var i = 0; i < owners.length; i++) {
     document.getElementById("owners").innerHTML +=
-    `<h2>${owners[i].name}</h2>    
+        `<h2>${owners[i].name}</h2>    
     <h2>Skills: ${owners[i].skills}</h2>
     <div class="portrait" style="background-image: url('${owners[i].portrait}')"></div>`
 }

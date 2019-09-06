@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .footer {
     width: 100%;
     background-color: rgb(125, 97, 77);
@@ -8,19 +7,24 @@
 
 h1{
     text-align: left;
-=======
+}
+
 .nav {
     background-color: rgb(125, 97, 77);
 }
 
 .active {
-    background-color: rgb(219, 195, 152) !important;
-    border-color: rgb(219, 195, 152) !important;
+    
+    color: #54595C !important;
+}
+
+.nav-link:hover {
+    color: #70AF82 !important;
+    border: none !important;
 }
 
 .nav-link {
     color: #70AF82;
->>>>>>> Stashed changes
 }
 
 section.mb-4{
@@ -83,13 +87,6 @@ textarea#message{
 
 
 
-
-
-.active{
-    background-color: rgb(219, 195, 152) !important;
-    border-color:  rgb(219, 195, 152)!important;
-  
-}
 
 
 .footer{
