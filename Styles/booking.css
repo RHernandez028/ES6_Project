@@ -3,7 +3,7 @@ html,body {
     margin: 0;
 }
 
-.jumbotron {
+body {
     background-color: rgb(219, 195, 152)!important;
 }
 
@@ -20,19 +20,3 @@ html,body {
     color: #70AF82;
 }
 
-.amenities {
-    width: 50%;
-}
-
-.column-3 {
-    float: left;
-    width: 33.33%;
-}
-
-.amenitiesList {
-    text-align: center;
-}
-
-.amenitiesList li {
-    list-style-type: none;
-}

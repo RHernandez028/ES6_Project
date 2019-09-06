@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .footer {
     width: 100%;
     background-color: rgb(125, 97, 77);
@@ -7,6 +8,19 @@
 
 h1{
     text-align: left;
+=======
+.nav {
+    background-color: rgb(125, 97, 77);
+}
+
+.active {
+    background-color: rgb(219, 195, 152) !important;
+    border-color: rgb(219, 195, 152) !important;
+}
+
+.nav-link {
+    color: #70AF82;
+>>>>>>> Stashed changes
 }
 
 section.mb-4{
@@ -22,7 +36,11 @@ section.mb-4{
 .active{
     background-color: rgb(219, 195, 152) !important;
     border-color:  rgb(219, 195, 152)!important;
+<<<<<<< Updated upstream
 }
+=======
+}    
+>>>>>>> Stashed changes
 
 .footer a {
     display: inline !important;
