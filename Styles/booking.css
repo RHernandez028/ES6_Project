@@ -13,6 +13,7 @@ html,body {
 
 .active {
     background-color: rgb(219, 195, 152) !important;
+    border-color: rgb(219, 195, 152) !important;
 }
 
 .nav-link {
