@@ -12,16 +12,26 @@ let cabinInfo = [{
 }]
 
 let owners = [{
-    name: "Gabriel Hernandez",
-    skills: "HTML5",
-    portrait: `<img src="gabriel.jpg" />`
+    name: `Gabriel Hernandez`,
+    skills: `Web Development`,
+    portrait: `gabriel.jpg`
 },
 {
-    name: "Anthony Arias",
-    skills: "HTML5",
-    portrait: `<img src="anthony.jpeg" />`
-},{
+    name: `Anthony Arias`,
+    skills: `Web Design`,
+    portrait: `anthony.jpeg`
+},
+{
     name: `Emmanuel Cortes`,
-    skills: `HTML5`,
-    portrait: `<img src="emmanuel.jpg" />`
-}]
+    skills: `Programming`,
+    portrait: `emmanuel.jpg`
+}];
+
+
+
+for (var i = 0; i < owners.length; i++) {
+    document.getElementById("owners").innerHTML +=
+    `<h2>${owners[i].name}</h2>    
+    <h2>Skills: ${owners[i].skills}</h2>
+    <div class="portrait" style="background-image: url('${owners[i].portrait}')"></div>`
+}

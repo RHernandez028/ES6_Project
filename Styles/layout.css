@@ -1,5 +1,28 @@
+<<<<<<< Updated upstream
+.footer {
+    width: 100%;
+    background-color: rgb(125, 97, 77);
+    color: white;
+    text-align: center;
+}
 
-/* Contact Form Styles */
+h1{
+    text-align: left;
+=======
+.nav {
+    background-color: rgb(125, 97, 77);
+}
+
+.active {
+    background-color: rgb(219, 195, 152) !important;
+    border-color: rgb(219, 195, 152) !important;
+}
+
+.nav-link {
+    color: #70AF82;
+>>>>>>> Stashed changes
+}
+
 section.mb-4{
     background-color: whitesmoke;
     width: 70%;
@@ -81,6 +104,7 @@ position: fixed;
 
 div.footer a {
     display: inline !important;
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     color: #70af82;
@@ -94,4 +118,22 @@ div.footer a {
 
 body{
     background-color: rgb(219, 195, 152);
+}
+
+.col {
+    padding-top: 20px;
+}
+
+.col:first-of-type{
+    margin-right: 100px;
+}
+
+.portrait {
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    display: block;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
