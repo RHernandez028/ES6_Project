@@ -1,5 +1,6 @@
 "use strict"
 
+// didn't end up using
 let cabinInfo = [{
     cabinName: "SloppyJoe",
     cabinPrice: "$75",
@@ -11,9 +12,10 @@ let cabinInfo = [{
     cabinSq: "1900 sqft."
 }]
 
+// Info about owners on home page
 let owners = [{
     name: `Gabriel Hernandez`,
-    skills: `Web Development`,
+    skills: `Programmer`,
     portrait: `gabriel.jpg`
 },
 {
@@ -28,7 +30,7 @@ let owners = [{
 }];
 
 
-
+// Loops thorugh each owner and their info 
 for (var i = 0; i < owners.length; i++) {
     document.getElementById("owners").innerHTML +=
         `<h2>${owners[i].name}</h2>    

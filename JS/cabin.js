@@ -1,3 +1,6 @@
+"use strict";
+// Broke code but we tried with the help from Micah
+
 let cabinCard = [{
     cabinPic1: ["img/cabin1-1.jpg", "img/cabin1-2.jpg", "img/cabin1-3.jpg","img/cabin1-4.jpg","img/cabin1-5.jpg"],
     cabinPic2: ["img/cabin2-1.jpg", "img/cabin2-2.jpg", "img/cabin2-3.jpg","img/cabin2-4.jpg","img/cabin2-5.jpg"],
@@ -17,7 +20,7 @@ let cabinCard = [{
 // }
 
 
-// Broke code but we tried
+// Broke code but we tried with the help from Micah
 for (let i = 0; i < cabinCard.length; i++) {   
     for (let j = 0; j < cabinCard[i].length; j++) {
         if (j === 0) {

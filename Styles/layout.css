@@ -9,6 +9,10 @@ h1{
     text-align: left;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .nav {
     background-color: rgb(125, 97, 77);
 }
