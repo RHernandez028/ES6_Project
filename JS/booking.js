@@ -30,7 +30,7 @@ let owners = [{
 }];
 
 
-// Loops thorugh each owner and their info 
+// Loops through each owner and their info 
 for (var i = 0; i < owners.length; i++) {
     document.getElementById("owners").innerHTML +=
         `<h2>${owners[i].name}</h2>    
